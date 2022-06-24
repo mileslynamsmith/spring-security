@@ -14,6 +14,7 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
         .authorizeRequests()
+            .antMatchers("/").permitAll()
             .antMatchers("/avengers/assemble").hasRole("Hero")
             .antMatchers("/secret-bases").hasRole("Director")
             .and()
