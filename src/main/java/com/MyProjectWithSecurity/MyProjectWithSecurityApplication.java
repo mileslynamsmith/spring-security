@@ -1,4 +1,4 @@
-package com.wildcodeschool.MyProjectWithSecurity;
+package com.MyProjectWithSecurity;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
